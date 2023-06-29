@@ -14,6 +14,7 @@ from dash.dependencies import Input, Output
 
 
 app = dash.Dash()
+server = app.server
 
 df = px.data.stocks()
 
